@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=shopName%> Book List</title>
+    <link rel="stylesheet"  type="text/css" href="/main.css" />
+
+</head>
+<body>
+    <h1> <%=shopName%>: Add book</h1> 
+    <form method="POST" action="/bookadded">
+        <p>Book name: <input id="name" type="text" name="name" placeholder="book name" required /></p>
+        <p>Price: <input id="price" type="number" name="price" placeholder="price" required/></p>
+        <input type="submit" value="Add book" />
+    </form>
+</body>
+</html>

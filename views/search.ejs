@@ -9,6 +9,11 @@
     <form action="/search-result" method="GET">
       <p>What book do you want?</p>
       <input id="search-box" type="text" name="keyword" value="Default">
+      <p>Type of Search</p>
+      <select name="searchType">
+        <option value="basic">Basic</option>
+        <option value="advanced" selected>Advanced</option>
+      </select>
       <input type="submit" value="Search" >
     </form>
   </body>
